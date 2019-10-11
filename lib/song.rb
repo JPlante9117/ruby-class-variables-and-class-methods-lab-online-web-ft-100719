@@ -2,7 +2,8 @@ class Song
   
   @@songcount = 0
   
-  def new 
+  def new(name, artist, genre)
+    name
     
   end
   
