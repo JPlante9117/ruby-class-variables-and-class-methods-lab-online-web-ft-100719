@@ -39,7 +39,7 @@ class Song
     @@genre_counting
   end
   
-    def self.genre_count
+    def self.artist_count
     @@genres.each do |genre|
       if @@genre_counting.key?(genre)
         @@genre_counting[genre] += 1
